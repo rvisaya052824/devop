@@ -22,7 +22,7 @@ exec-timeout 0 0
 transport input all
 iox
 interface GigabitEthernet1
-ip address dhcp
+!ip address dhcp
 ip nat outside
 no shut
 exit
@@ -1038,4 +1038,5 @@ cisco1.json
   }
  ]
 }
+
 
